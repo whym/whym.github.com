@@ -1,0 +1,22 @@
+@import url("http://github.com/stylesheets/screen.css");
+.standard_form {
+  text-align: left;
+  width: 61%;
+  min-width: 20em;
+}
+#header {
+  min-width: 30em;
+  background: url("./whym128.png") no-repeat 97% 39%;
+}
+#footer {
+  min-width: 30em;
+}
+
+h1 {
+  text-indent: 1em;
+}
+address {
+  font-weight: normal;
+  font-style: normal;
+  word-spacing: 0.26em;
+}
