@@ -3,20 +3,29 @@
   text-align: left;
   width: 61%;
   min-width: 20em;
+  border: none;
+  background: transparent;
 }
-#header {
-  min-width: 30em;
-  background: url("./whym128.png") no-repeat 97% 39%;
-}
-#footer {
+#header,#footer {
   min-width: 30em;
 }
 
-h1 {
-  text-indent: 1em;
+.logo {
+  color: #666;
+  font: normal bold 220%/100% "Inconsolata","Lucida Console",monospace;
 }
-address {
-  font-weight: normal;
-  font-style: normal;
+.logo strong { color: black; }
+.site {
+  width: inherit;
+}
+.info {
   word-spacing: 0.26em;
+}
+.company img {
+  vertical-align: text-top;
+}
+li.project {
+  max-width: 30em;
+  float: left;
+  margin: 0.5em;
 }
