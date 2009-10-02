@@ -15,17 +15,12 @@
   font: normal bold 220%/100% "Inconsolata","Lucida Console",monospace;
 }
 .logo strong { color: black; }
-.site {
-  width: inherit;
-}
-.info {
-  word-spacing: 0.26em;
-}
-.company img {
-  vertical-align: text-top;
-}
+.site { width: inherit; }
+.info { word-spacing: 0.26em; }
+.company img { vertical-align: text-top; }
 li.project {
   max-width: 30em;
   float: left;
   margin: 0.5em;
 }
+#footer { clear: both; }
