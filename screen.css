@@ -1,4 +1,5 @@
-@import url("http://github.com/stylesheets/screen.css");
+@import url("https://assets0.github.com/stylesheets/bundle_common.css");
+@import url("https://assets0.github.com/stylesheets/bundle_github.css");
 .standard_form {
   text-align: left;
   width: 61%;
@@ -19,7 +20,7 @@
 .info { word-spacing: 0.26em; }
 .company img { vertical-align: text-top; }
 li.project {
-  max-width: 30em;
+  max-width: 24em;
   float: left;
   margin: 0.5em;
 }
