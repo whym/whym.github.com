@@ -24,6 +24,7 @@
   float: left;
   margin: 0.5em !important;
 }
+.title { font-weight: bold; }
 .description { min-height: 3.0em; }
 .meta { min-height: 1.5em; }
 #footer { clear: both; }
