@@ -2,12 +2,12 @@
 @import url("https://assets0.github.com/stylesheets/bundle_github.css");
 .standard_form {
   text-align: left;
-  width: 61%;
+  width: 62%;
   min-width: 20em;
   border: none;
   background: transparent;
 }
-#header,#footer {
+#header, #footer {
   min-width: 30em;
 }
 
@@ -19,9 +19,11 @@
 .site { width: inherit; }
 .info { word-spacing: 0.26em; }
 .company img { vertical-align: text-top; }
-li.project {
-  max-width: 24em;
+.project {
+  max-width: 22em;
   float: left;
-  margin: 0.5em;
+  margin: 0.5em !important;
 }
+.description { min-height: 3.0em; }
+.meta { min-height: 1.5em; }
 #footer { clear: both; }
