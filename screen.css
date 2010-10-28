@@ -2,29 +2,30 @@
 @import url("https://assets0.github.com/stylesheets/bundle_github.css");
 .standard_form {
   text-align: left;
-  width: 62%;
+  max-width: 60em;
   min-width: 20em;
   border: none;
   background: transparent;
 }
 #header, #footer {
   min-width: 30em;
+  width: inherit;
 }
 
 .logo {
   color: #666;
-  font: normal bold 220%/100% "Inconsolata","Lucida Console",monospace;
+  font: normal bold 220%/220% "Inconsolata","Lucida Console",monospace;
 }
 .logo strong { color: black; }
 .site { width: inherit; }
 .info { word-spacing: 0.26em; }
 .company img { vertical-align: text-top; }
 .project {
-  max-width: 22em;
+  max-width: 20%;
+  min-width: 11em;
   float: left;
   margin: 0.5em !important;
 }
 .title { font-weight: bold; }
-.description { min-height: 3.0em; }
-.meta { min-height: 1.5em; }
+.meta { margin-top: 0.3em; }
 #footer { clear: both; }
