@@ -20,12 +20,20 @@
 .site { width: inherit; }
 .info { word-spacing: 0.26em; }
 .company img { vertical-align: text-top; }
+.sponsor {
+  float: right;
+  max-width: 40%;
+  margin: 0.4em 0;
+}
 .project {
-  max-width: 20%;
+  max-width: 25%;
   min-width: 11em;
   float: left;
   margin: 0.5em !important;
 }
 .title { font-weight: bold; }
-.meta { margin-top: 0.3em; }
+.meta {
+  margin-top: 0.3em;
+  color: #555;
+}
 #footer { clear: both; }
