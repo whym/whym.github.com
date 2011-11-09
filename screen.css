@@ -2,8 +2,8 @@
 @import url("https://assets0.github.com/stylesheets/bundle_github.css");
 .standard_form {
   text-align: left;
-  max-width: 60em;
-  min-width: 20em;
+  max-width: 50em;
+  min-width: 29em;
   border: none;
   background: transparent;
 }
@@ -11,6 +11,8 @@
   min-width: 30em;
   width: inherit;
 }
+
+p { padding: 0.8em 1em; }
 
 .logo {
   color: #666;
@@ -26,7 +28,7 @@
   margin: 0.4em 0;
 }
 .project {
-  max-width: 25%;
+  max-width: 44%;
   min-width: 11em;
   float: left;
   margin: 0.5em !important;
