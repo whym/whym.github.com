@@ -14,9 +14,10 @@
 
 p { padding: 0.8em 1em; }
 
-.logo {
+#header .logo {
   color: #666;
   font: normal bold 220%/220% "Inconsolata","Lucida Console",monospace;
+  display: inline-block;
 }
 .logo strong { color: black; }
 .site { width: inherit; }
@@ -38,4 +39,6 @@ p { padding: 0.8em 1em; }
   margin-top: 0.3em;
   color: #555;
 }
-#footer { clear: both; }
+#footer {
+    clear: both;
+}
