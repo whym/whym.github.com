@@ -1,11 +1,16 @@
+@import url('http://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 @import url("https://assets0.github.com/stylesheets/bundle_common.css");
 @import url("https://assets0.github.com/stylesheets/bundle_github.css");
+
 .standard_form {
   text-align: left;
   max-width: 50em;
   min-width: 29em;
   border: none;
   background: transparent;
+  position: relative;
 }
 #header, #footer {
   min-width: 30em;
@@ -16,17 +21,17 @@ p { padding: 0.8em 1em; }
 
 #header .logo {
   color: #666;
-  font: normal bold 220%/220% "Inconsolata","Lucida Console",monospace;
+  font: normal bold 240%/240% "Open Sans",sans-serf;
   display: inline-block;
 }
 .logo strong { color: black; }
 .site { width: inherit; }
 .info { word-spacing: 0.26em; }
-.company img { vertical-align: text-top; }
 .sponsor {
+  font-family: 'EB Garamond', serif;
   float: right;
   max-width: 40%;
-  margin: 0.4em 0;
+  margin: 0.5em 0;
 }
 .project {
   max-width: 44%;
@@ -41,4 +46,14 @@ p { padding: 0.8em 1em; }
 }
 #footer {
     clear: both;
+}
+#footer .info a {
+    display: inline-block;
+    height: 6em;
+}
+img {
+    vertical-align: text-top;
+}
+#footer code a {
+    font-family: sans-serif;
 }
