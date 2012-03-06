@@ -1,8 +1,8 @@
 @import url('http://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-@import url("https://assets0.github.com/stylesheets/bundle_common.css");
-@import url("https://assets0.github.com/stylesheets/bundle_github.css");
+@import url("https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-2bf13b82c8e960dcc1e764f6dfcfe2d641db713d.css");
+@import url("https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-98c3ef313c69893a7c6710ab40227ad8bc8eb0d3.css");
 
 .standard_form {
   text-align: left;
@@ -13,7 +13,6 @@
   position: relative;
 }
 #header, #footer {
-  min-width: 30em;
   width: inherit;
 }
 
@@ -21,8 +20,15 @@ p { padding: 0.8em 1em; }
 
 #header .logo {
   color: #666;
-  font: normal bold 240%/240% "Open Sans",sans-serf;
+  font: normal bold 240%/240% "Open Sans",sans-serif;
   display: inline-block;
+  margin-left: 1em;
+}
+html, body {
+    min-width: 100% !important;
+}
+h2 {
+  font: normal bold 120% sans-serif;
 }
 .logo strong { color: black; }
 .site { width: inherit; }
@@ -39,16 +45,18 @@ p { padding: 0.8em 1em; }
   float: left;
   margin: 0.5em !important;
 }
-.title { font: bold normal 108% sans-serif; }
+.title { font: normal bold 108% sans-serif; }
 .meta {
   margin-top: 0.3em;
   color: #555;
 }
 #footer {
     clear: both;
+    padding: 1em;
 }
 #footer .info a {
     display: inline-block;
+    line-height: 2.5em;
     height: 6em;
 }
 img {

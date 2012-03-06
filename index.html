@@ -22,9 +22,13 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+  <!-- highlighting #address -->
+  function highlightAddress() {
+    document.getElementById('footer').setAttribute('style', 'background-color: #CEF !important;');
+  }
     </script>
   </head>
-  <body>
+  <body onload="javascript: if (document.location.href.match('#address$')){ highlightAddress(); } ">
 
   <div id="main" >
    <div id="header" class="basic">
@@ -37,7 +41,7 @@
 
    <div id="dashboard" class="standard_form">
    <h2>About</h2>
-   <p>This website hosts a number of software packages for text processing, machine learning, typography etc, written partially or entirely by <a href="#address" onclick="javascript: document.getElementById('footer').setAttribute('style', 'background-color: #CEF !important;');">me (whym)</a>.</p>
+   <p>This website hosts a number of software packages for text processing, machine learning, typography etc, written partially or entirely by <a href="#address" onclick="javascript: highlightAddress();">me (whym)</a>.</p>
    <h2>Projects</h2>
    <ul class="repositories">
     <li class="project">
@@ -50,7 +54,7 @@
          </div>
     </li>
     <li class="project">
-         <div class="title"><a href="http://github.com/whym/diffindexer">diffindexer</a></div>
+         <div class="title"><a href="http://github.com/whym/RevDiffsearch">RevDiffSearch</a></div>
          <div class="description">
            N-gram based indexing and retrieval of Wikipedia's 390 million revisions.
          </div>
@@ -74,15 +78,6 @@
          </div>
          <div class="meta">
            <em>July 2010&ndash;</em>
-         </div>
-    </li>
-    <li class="project">
-         <div class="title"><a href="http://gist.github.com/171089">TumblrTagCommand</a></div>
-         <div class="description">
-         A userscript for tagging multiple posts on Tumblr.
-         </div>
-         <div class="meta">
-           <em>December 2009&ndash;</em>
          </div>
     </li>
     <li class="project">
