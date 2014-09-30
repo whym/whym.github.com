@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/whym
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://whym.org
+  * I am whym (https://keybase.io/whym) on keybase.
+  * I have a public key with fingerprint 71ED 8B72 5D74 1728 CEEE  9039 4EAE 5013 CC61 F931
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "71ed8b725d741728ceee90394eae5013cc61f931",
+            "host": "keybase.io",
+            "key_id": "4eae5013cc61f931",
+            "uid": "c00c5c01cb444dc9a3150e235eddbf00",
+            "username": "whym"
+        },
+        "service": {
+            "hostname": "whym.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412040841,
+    "expire_in": 157680000,
+    "prev": "dda77c8dee1c554c0bad3d76b834dbaeadf275ce74a4f6181b04487930c49222",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMHdAnicbZFdSBRRGIZ3+9PVBLPQCC/seBGJLHNmzuzMLioW4UVESaxt6dI2c87Z
+3UndWWd/dJFtxYtKigJXK0tNITCEQDYiiSAVC0rsBxKhC/MqtBSVMERUmpGCLjo3
+h/N+z/t+38cZz9ppyjB/rZquf1GmcuaJkfmIyVmU3tYMZJXEgKMZ1NLty6sEfFQL
+akogDBxAgJSIssDyREBQYEVMKbUznB1RifIM5DC2Qa+dg6AY+NWQ4dBjZClErYqq
+a/rDoxBd/Q8f2S5ghsE8ZiCWEUIE2yUO8gxlOZ4SInsZxgBDVAtI9VSnG/2xehAv
+BroSVTA15jXa/lO1qppP9wQ1NaxitU5X/eFw0GGYwrHgNkVlzx+/R1YCRN9XN0Sp
+FlLUAHBAncRhxQiECLIMYkQEiwFtCioa9SgGwQs2kdGP0YZG9UhCJEHAIqEUYp5H
+mJElwhHBJoscIrJEJeJlBR5TAUnIa4MilBmERMHOMRjZWZYFxkYNARU4WH1MyadH
+hhRfQApHNAriYyPuXSZzhmnP7h3Gj5kyLNl//3HxSdpGeg3/4QTslzqyS3NyZAUf
+2NtTmGV65Tfbq9d/sbkliYG80URPZ6h8aGX2szvVMbQFXnY8fHO84VJQyP/Sengf
+hVfPxw/dZtyRtqLGlDoT5Mti5H4XmFl9dK5idKSrbFBZSK0UxPt80f6CHwcr16ui
+zs6ZyeG42XVanF45ZdtwPbjevnRlwHrkxuZHn5CIdeedXOhtXyvf6inqnCLOVO3b
+/cvc67PfE4t3kpVHC6+9q7JZxh/3ZlYsvU9rbClNJmfv1U1euHzmeXLqU++yxe2c
+y781OnH325xLOcaXWNxD81at5uLq4NjNFhf6udlXbVpLPh1ubSrN7M599hstXA//
+=0MJ6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/whym
+
+==================================================================
