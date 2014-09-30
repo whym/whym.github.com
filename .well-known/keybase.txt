@@ -12,12 +12,21 @@ To claim this, I am signing this object:
 
 {
     "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
         "key": {
             "fingerprint": "71ed8b725d741728ceee90394eae5013cc61f931",
             "host": "keybase.io",
-            "key_id": "4eae5013cc61f931",
+            "key_id": "4EAE5013CC61F931",
             "uid": "c00c5c01cb444dc9a3150e235eddbf00",
             "username": "whym"
+        },
+        "merkle_root": {
+            "ctime": 1412085692,
+            "hash": "4b3f4f023d20e59564c387818955124747395f960f94ce550915d39ef6957a950112919200adda23865845d5c2718bc7e8c0d19cfc0ce22ab4d323414dbc2724",
+            "seqno": 67146
         },
         "service": {
             "hostname": "whym.org",
@@ -26,34 +35,37 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1412040841,
+    "ctime": 1412085827,
     "expire_in": 157680000,
-    "prev": "dda77c8dee1c554c0bad3d76b834dbaeadf275ce74a4f6181b04487930c49222",
-    "seqno": 2,
+    "prev": "e2b864528647e457819a25c2e2c9e282ff175bca1792ac8e6f5ba780bbf8d912",
+    "seqno": 5,
     "tag": "signature"
 }
 
 with the aforementioned key, yielding the PGP signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v1.0.5
-Comment: https://keybase.io/crypto
+Version: GnuPG v1
 
-yMHdAnicbZFdSBRRGIZ3+9PVBLPQCC/seBGJLHNmzuzMLioW4UVESaxt6dI2c87Z
-3UndWWd/dJFtxYtKigJXK0tNITCEQDYiiSAVC0rsBxKhC/MqtBSVMERUmpGCLjo3
-h/N+z/t+38cZz9ppyjB/rZquf1GmcuaJkfmIyVmU3tYMZJXEgKMZ1NLty6sEfFQL
-akogDBxAgJSIssDyREBQYEVMKbUznB1RifIM5DC2Qa+dg6AY+NWQ4dBjZClErYqq
-a/rDoxBd/Q8f2S5ghsE8ZiCWEUIE2yUO8gxlOZ4SInsZxgBDVAtI9VSnG/2xehAv
-BroSVTA15jXa/lO1qppP9wQ1NaxitU5X/eFw0GGYwrHgNkVlzx+/R1YCRN9XN0Sp
-FlLUAHBAncRhxQiECLIMYkQEiwFtCioa9SgGwQs2kdGP0YZG9UhCJEHAIqEUYp5H
-mJElwhHBJoscIrJEJeJlBR5TAUnIa4MilBmERMHOMRjZWZYFxkYNARU4WH1MyadH
-hhRfQApHNAriYyPuXSZzhmnP7h3Gj5kyLNl//3HxSdpGeg3/4QTslzqyS3NyZAUf
-2NtTmGV65Tfbq9d/sbkliYG80URPZ6h8aGX2szvVMbQFXnY8fHO84VJQyP/Sengf
-hVfPxw/dZtyRtqLGlDoT5Mti5H4XmFl9dK5idKSrbFBZSK0UxPt80f6CHwcr16ui
-zs6ZyeG42XVanF45ZdtwPbjevnRlwHrkxuZHn5CIdeedXOhtXyvf6inqnCLOVO3b
-/cvc67PfE4t3kpVHC6+9q7JZxh/3ZlYsvU9rbClNJmfv1U1euHzmeXLqU++yxe2c
-y781OnH325xLOcaXWNxD81at5uLq4NjNFhf6udlXbVpLPh1ubSrN7M599hstXA//
-=0MJ6
+owFVkn+IFkUYx9/3KqPEOrvIg6S8NcXyfJ2ZndmZOfLiOM6MUrFOUCpedmaefd/t
+7nZfd9c7X+4OzFTqjzjDsvKOLIggSCuDCrGi8p9QKpQoyFK8LjrDwkjk+iHNXhfp
+/LHMznzm+3y/z8yuOVcVGoqn1n/dd6g9dotHJ1Wh+673OwcdFZu60zbo6N4Qoiyf
+RX4fOG1OD9SVn0IpjBdEsYHSY+mCGabV6YckDePIUqjES8QZbs3x/HAQRhVIakmY
+azkcgxGKE2Y4xZwIDQASuZKCDwxhV2sPB9LFVrIap9kVVZ1pzXJo7Crt6ujK+c5O
+D6/8l988vaER0kwjrBWl1Gjpu5ghIC4DY1SAUA6mkMxEGqjW+3KvfZD09EI5iePp
+wDoL821MMUGCeZJYN35azesqN6ABIq4hCJhkHtWu4AILyRgmlFPuShZIDwWSamAM
+ScyMKyHwJOO+tJYxkVgShHxjfOIKjwnKDNOEY6E0B6GRwVIHGmkgxFfUuMSlmBpl
+EUKt/RQ2RbHT5nFMveH8N+kPNeS2845dFqwUJxXL15I4i3Xca1erWVZry/Nm9do0
+Bao8c76sXg0jY+/q8svEFr2yF4LwVge21MIEymFOMO4JZEdeB/qtJhAlPMqI/XCg
+zPZG+sTmA6IlEEGCAHOmtI+5JL4W4AVM+VwgpQJhJCb/J2TWp1+xkmlYifxscwLO
+8FPF+VcXig2FWdc05K+1cP11jf894cK5ay/d3fjWXzv3DQ20TJz+bHu4fOgJYN2P
+n6hHN95y6x4650G9bEXz2cXV845au7dp7rzd725/5sRLzSe/1M+fHZkUz/K1Lbfv
+/HH00YbR6pIjy9Z1bRv7Xq6cvHfo5otjWfTpF+jiT0+Pbln0wHx66r2xptlLz//w
+JqsUejqe+6Bzzx+/F9++tFzuWLL+2GHC2LZvGs/8fMfHRz48uPGV+n371YbxWd89
+NLvlQNA1uG/xO7/s//XOpRMPnz4w755jgwMtfy+qvTCVNrWfGYj4VPOfn5/benzq
+UPuqXQtPjo98sumG+zfsntKFlz9a0fHt6oVH16y+MHJ8/MULWze+MXHTI68fXvXa
+ur1pd9OTyW9f3bbj4D8=
+=2qIs
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
