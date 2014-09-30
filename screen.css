@@ -62,6 +62,6 @@ h2 {
 img {
     vertical-align: text-top;
 }
-#footer code a {
+.hidden {
     font-family: sans-serif;
 }
