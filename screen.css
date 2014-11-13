@@ -1,43 +1,54 @@
 @import url('http://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-html {
-  position: relative;
-  min-height: 100%;
+header h1 {
+    color: #666;
+    font: normal bold 240%/240% "Open Sans",sans-serif;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+header h1 strong {
+    color: black;
 }
 
-header .logo {
-  color: #666;
-  font: normal bold 240%/240% "Open Sans",sans-serif;
+.avatar {
+    width: 2em;
+    height: 2em;
 }
-.logo strong { color: black; }
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: #F5F5F5;
+    line-height: 4em;
+}
 
 .sponsor {
     font-family: 'EB Garamond', serif;
-    margin: 0 .5em 2em 0 0;
-    background: white;
-    opacity: 0.8;
 }
 
 .projects footer {
-  font-style: italic;
+    font-style: italic;
 }
 
 .latent {
     font-family: sans-serif;
 }
-.footer {
-    position: absolute;
-    bottom: 0px;
-    height: 60px;
-    width: 100%;
-    padding-top: .5em;
-    background-color: #F5F5F5;
-    z-index: -1;
-}
-.email { font-family: monospace; }
 
+.email {
+    font-family: monospace;
+}
+
+a.list-group-item:hover {
+    text-decoration: underline;
+}

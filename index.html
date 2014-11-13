@@ -1,14 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><!-- -*- mode: nxml -*- -->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html><!-- -*- mode: nxml -*- -->
+<html>
   <head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="UTF-8" />
     <title>whym.org</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
     <link rel="icon" href="whym16.png" type="image/png" />
     <meta name="description" content="whym.org is a personal website of Whym, a software writer for text processing, machine learning, typography etc." />
     <meta name="google-site-verification" content="mFLj3GT0h3VVqLw-GLFet2kUv0TAerEtjZX4vmDGqmE" />
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.js"></script>
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -24,24 +23,24 @@
 
   <!-- highlighting #address -->
   function highlightAddress() {
-    document.getElementById('address').setAttribute('style', 'background-color: #CEF !important;');
+    document.getElementById('address').classList.add('panel-primary');
   }
     </script>
   </head>
   <body onload="javascript: if (document.location.href.match('#address$')){ highlightAddress(); } ">
     <div class="container">
       <header class="page-header">
-        <div class="logo">
+        <h1>
           <strong>whym</strong>.org
-        </div>
+        </h1>
       </header>
 
       <div class="row">
       
-      <div class="col-md-8 projects">
+      <div class="col-sm-9 projects">
       <div class="row">
         <div class="col-md-6">
-          <h3><a href="http://github.com/whym/wikihadoop">WikiHadoop</a></h3>
+          <h2><a href="http://github.com/whym/wikihadoop">WikiHadoop</a></h2>
           <p>
             Stream-based InputFormat for processing the XML dumps of Wikipedia with Hadoop.
           </p>
@@ -51,7 +50,7 @@
         </div>
 
         <div class="col-md-6">
-          <h3><a href="http://github.com/whym/RevDiffsearch">RevDiffSearch</a></h3>
+          <h2><a href="http://github.com/whym/RevDiffsearch">RevDiffSearch</a></h2>
           <p>
             N-gram based indexing and retrieval of Wikipedia's 390 million revisions.
           </p>
@@ -61,7 +60,7 @@
         </div>
 
         <div class="col-md-6">
-          <h3><a href="http://github.com/whym/tinyclassifier">TinyClassifier</a></h3>
+          <h2><a href="http://github.com/whym/tinyclassifier">TinyClassifier</a></h2>
           <p>
             A machine learning library powered by SWIG.
           </p>
@@ -71,7 +70,7 @@
         </div>
 
         <div class="col-md-6">
-          <h3><a href="http://github.com/whym/ligtran">ligtran</a></h3>
+          <h2><a href="http://github.com/whym/ligtran">ligtran</a></h2>
           <p>
             A web service converting texts by composing &amp; decomposing ligatures.
           </p>
@@ -82,40 +81,33 @@
       </div>
       </div>
 
-    <div class="col-md-4">
-        <h2>About</h2>
-        <p>This website hosts a number of software packages for text processing, machine learning, typography etc, written partially or entirely by <a href="#address" onclick="javascript: highlightAddress();">me (whym)</a>.</p>
-
-    <div id="address">
-      <a name="address"></a>
-      <div class="site">
-        <div class="info">
-          <div class="links">
-            <img title="whym" alt="whym" src="http://www.gravatar.com/avatar/28719e2b0051eb54a007fbdf4c4cbc04" width="20" height="20" style="" /><br/>
-            <a href="http://github.com/whym">github</a>
-            | <a href="http://twitter.com/whym">twitter</a>
-            | <a href="http://blog.whym.org">blog</a>
-            | <a href="http://meta.wikimedia.org/wiki/User:Whym">wikimedia</a>
-            | <span class="email">w<span class="latent" onclick="javascript:this.textContent = 'hym'; this.classList.remove('hidden'); this.onclick = null;" title="Reveal this e-mail address">...&nbsp;</span>@whym.org</span>
-          </div>
+    <div class="col-sm-3">
+      <div class="panel panel-default" id="address">
+        <div class="panel-heading"><img title="whym" alt="whym" src="http://www.gravatar.com/avatar/28719e2b0051eb54a007fbdf4c4cbc04" class="avatar" /> Hi, I make software tools for studying and playing with natural-language text.
         </div>
+        <div class="list-group">
+          <a class="list-group-item" href="http://github.com/whym"><span class="glyphicon glyphicon-link"></span> github</a>
+          <a class="list-group-item" href="http://twitter.com/whym"><span class="glyphicon glyphicon-link"></span> twitter</a>
+          <a class="list-group-item" href="http://blog.whym.org"><span class="glyphicon glyphicon-link"></span> blog</a>
+          <a class="list-group-item" href="http://meta.wikimedia.org/wiki/User:Whym"><span class="glyphicon glyphicon-link"></span> wikimedia</a>
+        </div>
+        <div class="panel-body">
+          <span class="email"><span class="glyphicon glyphicon-envelope"></span> w<span class="latent" onclick="javascript:this.textContent = 'hym'; this.classList.remove('latent'); this.onclick = null;" title="Click to reveal this e-mail address">...&nbsp;</span>@whym.org</span>
+        </div>
+        
       </div>
     </div>
-    </div>
-    </div>
+      </div>
 
-    <div class="row">
-    <div class="col-sm-8"></div>
-    <div class="col-sm-4 sponsor">
+    <div class="pull-right sponsor text-muted">
       Looking for something more academic? Visit <a href="http://yusuke.matsubara.name">my other website</a>.
     </div>
-    </div>
-    </div>
+
     </div>
 
     <div class="footer">
       <div class="container">
-      <p class="text-muted">Text licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution ShareAlike 4.0 International</a> by Yusuke Matsubara</p>
+      <p class="text-muted">Text licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> by Yusuke Matsubara</p>
       </div>
     </div>
 
