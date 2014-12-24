@@ -1,67 +1,54 @@
 @import url('http://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
-@import url("https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github-2bf13b82c8e960dcc1e764f6dfcfe2d641db713d.css");
-@import url("https://a248.e.akamai.net/assets.github.com/stylesheets/bundles/github2-98c3ef313c69893a7c6710ab40227ad8bc8eb0d3.css");
-
-.standard_form {
-  text-align: left;
-  max-width: 50em;
-  min-width: 29em;
-  border: none;
-  background: transparent;
-  position: relative;
+header h1 {
+    color: #666;
+    font: normal bold 240%/240% "Open Sans",sans-serif;
 }
-#header, #footer {
-  width: inherit;
+header h1 strong {
+    color: black;
 }
 
-p { padding: 0.8em 1em; }
+.avatar {
+    width: 2em;
+    height: 2em;
+}
 
-#header .logo {
-  color: #666;
-  font: normal bold 240%/240% "Open Sans",sans-serif;
-  display: inline-block;
-  margin-left: 1em;
+html {
+    position: relative;
+    min-height: 100%;
 }
-html, body {
-    min-width: 100% !important;
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
-h2 {
-  font: normal bold 120% sans-serif;
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: #F5F5F5;
+    line-height: 4em;
 }
-.logo strong { color: black; }
-.site { width: inherit; }
-.info { word-spacing: 0.26em; }
+
 .sponsor {
-  font-family: 'EB Garamond', serif;
-  float: right;
-  max-width: 40%;
-  margin: 0.5em 0;
+    font-family: 'EB Garamond', serif;
 }
-.project {
-  max-width: 44%;
-  min-width: 11em;
-  float: left;
-  margin: 0.5em !important;
+
+.projects footer {
+    font-style: italic;
 }
-.title { font: normal bold 108% sans-serif; }
-.meta {
-  margin-top: 0.3em;
-  color: #555;
-}
-#footer {
-    clear: both;
-    padding: 1em;
-}
-#footer .info a {
-    display: inline-block;
-    line-height: 2.5em;
-    height: 6em;
-}
-img {
-    vertical-align: text-top;
-}
-.hidden {
+
+.latent {
     font-family: sans-serif;
+}
+
+.email {
+    font-family: monospace;
+}
+
+a.list-group-item:hover {
+    text-decoration: underline;
 }

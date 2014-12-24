@@ -1,10 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html><!-- -*- mode: nxml -*- -->
+<html>
   <head>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="UTF-8" />
     <title>whym.org</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" />
     <link href="screen.css" media="screen" rel="stylesheet" type="text/css" />
     <link rel="icon" href="whym16.png" type="image/png" />
     <meta name="description" content="whym.org is a personal website of Whym, a software writer for text processing, machine learning, typography etc." />
@@ -24,90 +23,93 @@
 
   <!-- highlighting #address -->
   function highlightAddress() {
-    document.getElementById('footer').setAttribute('style', 'background-color: #CEF !important;');
+    document.getElementById('address').classList.add('panel-primary');
   }
     </script>
   </head>
   <body onload="javascript: if (document.location.href.match('#address$')){ highlightAddress(); } ">
+    <div class="container">
+      <header class="page-header">
+        <h1>
+          <strong>whym</strong>.org
+        </h1>
+      </header>
 
-  <div id="main" >
-   <div id="header" class="basic">
-   <div class="site">
-   <div class="logo">
-   <strong>whym</strong>.org
-   </div>
-   </div>
-   </div>
-
-   <div id="dashboard" class="standard_form">
-   <h2>About</h2>
-   <p>This website hosts a number of software packages for text processing, machine learning, typography etc, written partially or entirely by <a href="#address" onclick="javascript: highlightAddress();">me (whym)</a>.</p>
-   <h2>Projects</h2>
-   <ul class="repositories">
-    <li class="project">
-         <div class="title"><a href="http://github.com/whym/wikihadoop">WikiHadoop</a></div>
-         <div class="description">
-           Stream-based InputFormat for processing TB-scale XML dumps of Wikipedia with Hadoop.
-         </div>
-         <div class="meta">
-         <em>August 2011&ndash;</em>
-         </div>
-    </li>
-    <li class="project">
-         <div class="title"><a href="http://github.com/whym/RevDiffsearch">RevDiffSearch</a></div>
-         <div class="description">
-           N-gram based indexing and retrieval of Wikipedia's 390 million revisions.
-         </div>
-         <div class="meta">
-         <em>September 2011&ndash;</em>
-         </div>
-    </li>
-    <li class="project">
-         <div class="title"><a href="http://github.com/whym/tinyclassifier">TinyClassifier</a></div>
-         <div class="description">
-         A wanna-be machine learning library powered by SWIG.
-         </div>
-         <div class="meta">
-           <em>April 2009&ndash;</em>
-         </div>
-    </li>
-    <li class="project">
-         <div class="title"><a href="http://github.com/whym/ligtran">ligtran</a></div>
-         <div class="description">
-         A web service converting texts by composing &amp; decomposing ligatures.
-         </div>
-         <div class="meta">
-           <em>July 2010&ndash;</em>
-         </div>
-    </li>
-    <li class="project">
-         <div class="title"><a href="http://github.com/whym">Other projects</a></div>
-    </li>
-    <li class="project">
-         <div class="title"><a href="http://gist.github.com/whym">Other snippets</a></div>
-    </li>
-   </ul>
-   </div>
-
-  </div>
-
-  <div id="footer">
-  <a name="address"></a>
-  <div class="site">
-        <div class="sponsor">
-          Looking for something more academic? Visit <a href="http://yusuke.matsubara.name">my other website</a>.
+      <div class="row">
+      
+      <div class="col-sm-9 projects">
+      <div class="row">
+        <div class="col-md-6">
+          <h2><a href="http://github.com/whym/wikihadoop">WikiHadoop</a></h2>
+          <p>
+            Stream-based InputFormat for processing the XML dumps of Wikipedia with Hadoop.
+          </p>
+          <footer class="text-muted">
+          August 2011&ndash;
+          </footer>
         </div>
-        <div class="info">
-          <div class="links">
-          <img title="whym" alt="whym" src="http://www.gravatar.com/avatar/28719e2b0051eb54a007fbdf4c4cbc04" width="20" height="20" style="" /><br/>
-          <a href="http://github.com/whym">github</a>
-          | <a href="http://twitter.com/whym">twitter</a>
-          | <a href="http://blog.whym.org">blog</a>
-          | <a href="http://meta.wikimedia.org/wiki/User:Whym">wikimedia</a>
-          | <code>w<span class="hidden" onclick="javascript:this.textContent = 'hym'; this.classList.remove('hidden'); this.onclick = null;" title="Reveal this e-mail address">...&nbsp;</span>@whym.org</code>
-          </div>
+
+        <div class="col-md-6">
+          <h2><a href="http://github.com/whym/RevDiffsearch">RevDiffSearch</a></h2>
+          <p>
+            N-gram based indexing and retrieval of Wikipedia's 390 million revisions.
+          </p>
+          <footer class="text-muted">
+            September 2011&ndash;
+          </footer>
         </div>
-  </div>
-  </div>
+
+        <div class="col-md-6">
+          <h2><a href="http://github.com/whym/tinyclassifier">TinyClassifier</a></h2>
+          <p>
+            A machine learning library powered by SWIG.
+          </p>
+          <footer class="text-muted">
+            April 2009&ndash;
+          </footer>
+        </div>
+
+        <div class="col-md-6">
+          <h2><a href="http://github.com/whym/ligtran">ligtran</a></h2>
+          <p>
+            A web service converting texts by composing &amp; decomposing ligatures.
+          </p>
+          <footer class="text-muted">
+            July 2010&ndash;
+          </footer>
+        </div>
+      </div>
+      </div>
+
+    <div class="col-sm-3">
+      <div class="panel panel-default" id="address">
+        <div class="panel-heading"><img title="whym" alt="whym" src="http://www.gravatar.com/avatar/28719e2b0051eb54a007fbdf4c4cbc04" class="avatar" /> Hi, I make software tools for studying and playing with natural-language text.
+        </div>
+        <div class="list-group">
+          <a class="list-group-item" href="http://github.com/whym"><span class="glyphicon glyphicon-link"></span> github</a>
+          <a class="list-group-item" href="http://twitter.com/whym"><span class="glyphicon glyphicon-link"></span> twitter</a>
+          <a class="list-group-item" href="http://blog.whym.org"><span class="glyphicon glyphicon-link"></span> blog</a>
+          <a class="list-group-item" href="http://meta.wikimedia.org/wiki/User:Whym"><span class="glyphicon glyphicon-link"></span> wikimedia</a>
+        </div>
+        <div class="panel-body">
+          <span class="email"><span class="glyphicon glyphicon-envelope"></span> w<span class="latent" onclick="javascript:this.textContent = 'hym'; this.classList.remove('latent'); this.onclick = null;" title="Click to reveal this e-mail address">...&nbsp;</span>@whym.org</span>
+        </div>
+        
+      </div>
+    </div>
+      </div>
+
+    <div class="pull-right sponsor text-muted">
+      Looking for something more academic? Visit <a href="http://yusuke.matsubara.name">my other website</a>.
+    </div>
+
+    </div>
+
+    <div class="footer">
+      <div class="container">
+      <p class="text-muted">Text licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> by Yusuke Matsubara</p>
+      </div>
+    </div>
+
   </body>
 </html>
