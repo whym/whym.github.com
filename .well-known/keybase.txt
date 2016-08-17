@@ -4,68 +4,60 @@ https://keybase.io/whym
 
 I hereby claim:
 
-  * I am an admin of http://whym.org
+  * I am an admin of http://www.whym.org
   * I am whym (https://keybase.io/whym) on keybase.
   * I have a public key with fingerprint 71ED 8B72 5D74 1728 CEEE  9039 4EAE 5013 CC61 F931
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.7.2"
-        },
         "key": {
+            "eldest_kid": "01018ad6d4f1f1a3f34bdd4afc48aa3efb766c23c660a8e0ce86d09f6ee6dd2383610a",
             "fingerprint": "71ed8b725d741728ceee90394eae5013cc61f931",
             "host": "keybase.io",
-            "key_id": "4EAE5013CC61F931",
+            "key_id": "4eae5013cc61f931",
+            "kid": "01018ad6d4f1f1a3f34bdd4afc48aa3efb766c23c660a8e0ce86d09f6ee6dd2383610a",
             "uid": "c00c5c01cb444dc9a3150e235eddbf00",
             "username": "whym"
         },
-        "merkle_root": {
-            "ctime": 1412156719,
-            "hash": "5e12f32edcf557a3fcad0cb86d3cfa435f3813574906ac2a8cde78c3301bce5b73ffba1f1ecc4a42f60483838c8439fa36dfd05021a4c21ba1570859c2b462fe",
-            "seqno": 68758
-        },
         "service": {
-            "hostname": "whym.org",
+            "hostname": "www.whym.org",
             "protocol": "http:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1412156767,
+    "ctime": 1471419528,
     "expire_in": 157680000,
-    "prev": "c2aef00375627a327dedaf566d2c199ade9b763bb5621c5da10b0f04d09a2e8a",
-    "seqno": 7,
+    "prev": "2f4b367b99cec5d56fc8d70d364381e28ce76867315384fa6145c4a21461d0cd",
+    "seqno": 12,
     "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG v1
+Version: Keybase OpenPGP v2.0.55
+Comment: https://keybase.io/crypto
 
-owFdkn1oVlUcx59nLs3UsvpnhYTdLBTHw3m555x7H2ERa2J/WfCs/aHwdF6fXbfd
-+3TvdbncJLKSEYYNoTQwUYdYrHwZNiuwF4rHQkiY1UIcWvC00D9yoPS6zl2LrHP+
-Oef8Pr+X7+93di2Zl2vIT7Z/0/N+S4TzX06JXGn12fJWR0SqzyludWR3oMM0O4W8
-RztFp0v3CZ7oQhAtDyOlC5uS5XNMs9Or4ySIQkuBAisgZ6A5wzNnE4QVHVfjIIvl
-MKiVJxgiirmQIU9qrX2AfVdzTQDEUlJofAxtyM4oSf+T1ZmNWQ6UfXXbHmnL+NZW
-Ctf+zW+eNUgAJJEASuG6rpI+x5AAjTDRSgkDQAYmOp6T9ExnX09Wa4+Ou7p1OY6i
-WcEyDTIzdCGChDLo22p40mkdiIbIYKSVNIQwjo3kCkjhUYWl4S4mBnsQE+b6gHKJ
-uCeVZp7EGEAhNREMGyM4NFBL6XIXGQpcD9stPRf7hmOqjAIEIMhdiaBFCQMe8SUS
-LkVG2/IT/XQYOUXqMeINZNe4N5A6Kzvr2E3CClFcsXw1jtJIRt32tTNNq8VMb9pX
-naW0KM/5l8WhIFR2VjcPE1r0f72grNnRW6pBrMtBRhBGPWBXlkf3ZgNAXNs+Y0Yo
-sg1CTGnFDaFUIQl9nyvtC0axENYOJVEcAgEMcBXwOdIe/1ehzZTyig2ZBJWQp5tj
-7QwM5pc15vINufm3NGS/NXfbwqX/fOGZlxfMhDMbPnz8p7PvLp5465OP5704cX3b
-xOXDC1vrLd+rX/sbV7QdPPLwpjc7BofPhG9Upllt7+Hkux+Hal8dH5IXPvjC1IZP
-7xgrPXtv/7FzeP/nD+y+unbb0eETTYdWX9l3Mcdx6ZdvXyit2TN6+s7BS59eO7/j
-1qmN6B25e2nTzgMNi99+9dipG5PoyWlBCy+Vfz6+a+eiH0Kv5eqWdRfOPHZy/YFF
-G1bdveRUEx0/N3Ji/6P1sb3JE/U/X7u4YijfOP587bPRBa9PnVx/eXT7lRv3r+tY
-I5+qP3jteuW599prHxVLR9k9X5fGuy793r9s5Dczeb4+yEaSjjumjyT7xvbc9cfB
-9pUP3ffK7dtXRfP/Ag==
-=FGgi
+yMIjAnicrVJJaBRBFJ3ERDSuuOGGaBtEZQxVXdXVPRNRjAkIrrjvQ3VV9aRNMj3p
+7mwmEU8uqNFgooKgiYoeVFzQAb24KyKCCzKIiUtCLiYKimhEQauD3jxal6L+f+/9
+93/9u0P6hXIy3qxKl12f46CMR7cOVoTWXBm1q1YxHV6jRGuVEtF3iVIuPD9WYnMl
+qgAIoEE54diCFqTIQtjkHFOLYYNSJCxTJ4SpiBECqCEAEwbhIGIRIQjnKjIQgYAq
+YcWyE3HhJl074UtZHQpumLqqcR1DXTWYECICUAQLKjQAEWMEWhEEJbHY8QKGNGdS
+T+TZjozJR6zP3j/w/9l3RZ8cA4BpDEBmYow5i1AENSBUpAnOTQuAAOgJN0HLhERX
+FdeUKfVhRUYqbSaCoQZd/M1WVeUFiDzHjUte0nV8hzmlMlPs+8loQPRrkn1IYcb+
+aMRMO8HlCCWhUrie7SSUKJRI5tuBKMQ6xDCiqUZYEdVJ2xUxO0BoOjGAPEEZUSkl
+VQubiOhmJMIE07hGLGZwHXBEMDKgCH5CUogu+0MGtiiBWGOYqhATyAHjStBVecKR
+2qr0SeNS07PjCepXuEKpv31zY1YoIyfUPzsz2K1QzsDhfzeuZdqAUEMnbZ+wO7N0
+t/V469NBw28tLVx9Pe2Zhx5PSr/t98mINo+tv3lnf2N2eiGY13ZkU8n5+MGfRa21
+rwarBTNWT9nXMiKVLvyybS59+QstfXLS7xn5Gn5YsLP3a9fxIyveza7bfGNm/qLs
+6szCc2Nar+U/Onw068C4uiv3hm1p3H5p6J6P7+dPvqAsG3ja2xDtuTikaup07+qx
+zvAZurjpeNN6L3dHV8Gpk866jv5PZqVEzVn318Oja/Jf7V3bNnIMHT+ns+HUg3DT
+644TU+4vaTx2+llz9+SCCe11h0ab7v1zW3+w1IuVy3s7e8S3hu2bLi/5PDi3vuhd
+ecvE1LxU0fddz+O0ubQ7v/o3s4VB2Q==
+=/I4t
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
