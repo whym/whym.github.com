@@ -1,49 +1,52 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 header h1 {
-    color: #666;
-    font: normal bold 240%/240% "Open Sans",sans-serif;
+  color: #666;
+  font: normal bold 240%/240% "Open Sans",sans-serif;
 }
 header h1 strong {
-    color: black;
+  color: black;
 }
 
 .avatar {
-    width: 2em;
-    height: 2em;
+  width: 2em;
+  height: 2em;
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
 
 .footer {
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-    height: 60px;
-    width: 100%;
-    background-color: #F5F5F5;
-    line-height: 4em;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  background-color: #F5F5F5;
+  line-height: 4em;
 }
 
 .projects footer {
-    font-style: italic;
-}
-
-.latent {
-    font-family: sans-serif;
+  font-style: italic;
 }
 
 .email {
-    font-family: monospace;
+  font-family: monospace;
+  word-break: keep-all;
 }
 
 a.list-group-item:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  #address {
+    margin-top: 2.5em;
+  }
 }
