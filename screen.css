@@ -33,10 +33,9 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0px;
-  height: 60px;
   width: 100%;
   background-color: #F5F5F5;
-  line-height: 3em;
+  line-height: 2.5em;
 }
 @media (max-width: 767px) {
   .contact {
