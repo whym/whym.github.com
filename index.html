@@ -10,6 +10,19 @@
     <meta name="description" content="whym.org - software projects on machine learning, natural language processing, etc" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content="mFLj3GT0h3VVqLw-GLFet2kUv0TAerEtjZX4vmDGqmE" />
+    <script>
+      function highlightEmail() {
+        document.getElementById('email').classList.add('bg-success', 'text-white');
+        revealEmail();
+      }
+      function revealEmail() {
+        const node = document.getElementById('emailText');
+        node.textContent = node.textContent.replace(/^.*@/, 'whym@');
+        node.parentNode.classList.add('revealed');
+        node.onclick = null;
+        node.title = '';
+      }
+    </script>
   </head>
   <body onload="javascript: if (document.location.href.match('#email$')){ highlightEmail(); } ">
     <div class="container">
@@ -125,7 +138,7 @@
               <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action" href="https://github.com/whym" rel="me">🔗 github</a>
                 <a class="list-group-item list-group-item-action" href="https://phabricator.wikimedia.org/p/whym/" rel="me">🔗 wikimedia</a>
-                <span class="list-group-item email" id="email"><span class="user-select-none">✉️ </span><span onclick="javascript:this.textContent = this.textContent.replace(/^.*@/, 'whym@'); this.onclick = null;" title="Click to reveal this e-mail address">w…&nbsp;@whym.org</span></span>
+                <span class="list-group-item email" id="email"><span class="user-select-none">✉️ </span><span id="emailText" onclick="javascript:revealEmail();" title="Click to reveal this e-mail address">w…&nbsp;@whym.org</span></span>
               </div>
             </div>
           </div>
@@ -134,7 +147,7 @@
 
       <footer>
         <div class="container">
-          <p class="text-muted">Text licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> by Yusuke Matsubara</p>
+          <p class="text-muted">Text licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> by <a href="#email" onclick="javascript:highlightEmail();">Yusuke Matsubara</a></p>
         </div>
       </footer>
     </div>

@@ -14,6 +14,18 @@
   word-break: keep-all;
 }
 
+.mark {
+	cursor: help;
+}
+
+.email:hover {
+	cursor: help;
+}
+
+.revealed:hover {
+	cursor: default;
+}
+
 a.list-group-item:hover {
   text-decoration: underline;
 }
