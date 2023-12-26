@@ -26,12 +26,15 @@
 	cursor: default;
 }
 
+header h1 { font-size: 170%; }
+
 a.list-group-item:hover {
   text-decoration: underline;
 }
 
-header h1 { font-size: 170%; }
-
+.text-muted a:not(:hover) {
+	color: inherit;
+}
 
 /* footer trick */
 html {

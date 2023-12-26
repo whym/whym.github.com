@@ -19,6 +19,9 @@
         document.getElementById('email').classList.add('bg-success', 'text-white');
         revealEmail();
       }
+      function unhighlightEmail() {
+        document.getElementById('email').classList.remove('bg-success', 'text-white');
+      }
       function revealEmail() {
         const node = document.getElementById('emailText');
         node.textContent = node.textContent.replace(/^.*@/, 'whym@');
@@ -26,9 +29,23 @@
         node.onclick = null;
         node.title = '';
       }
+
+      ['hashchange', 'load'].forEach(ev =>
+        window.addEventListener(ev, () => {
+          if (document.location.hash === '#email') {
+            highlightEmail();
+          } else {
+            unhighlightEmail();
+          }
+        })
+      );
+
+      document.querySelectorAll('a[href="#email"]').forEach(
+        link => link.addEventListener('click', highlightEmail)
+      );
     </script>
   </head>
-  <body onload="javascript: if (document.location.href.match('#email$')){ highlightEmail(); } ">
+  <body>
     <div class="container">
       <header class="border-bottom mt-3 mb-2">
         <h1>
@@ -70,7 +87,7 @@
       </header>
       <div>
 
-        <!-- <p>This is a personal website.</p> -->
+        <p class="text-muted">This is a personal website of <a href="#email">whym</a>.</p>
         <div class="row mt-4">
           <div class="col-sm-9 projects">
             <div class="row">
@@ -152,7 +169,7 @@
 
       <footer>
         <div class="container">
-          <p class="text-muted">Text licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> by <a href="#email" onclick="javascript:highlightEmail();">Yusuke Matsubara</a></p>
+          <p class="text-muted">Text licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a> by <a href="#email">Yusuke Matsubara</a></p>
         </div>
       </footer>
     </div>
