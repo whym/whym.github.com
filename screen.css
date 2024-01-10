@@ -26,6 +26,14 @@
 	cursor: default;
 }
 
+.contact a[rel="me"]::before {
+  content: "🔗 ";
+}
+
+.email::before {
+  content: "✉️ ";
+}
+
 header h1 { font-size: 170%; }
 
 a.list-group-item:hover {
