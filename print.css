@@ -1,0 +1,16 @@
+.contact a::after {
+  content: " (" attr(href) ") ";
+}
+.container {
+  width: auto;
+  max-width: 100%;
+}
+.projects figure p {
+  margin-bottom: 0.3rem;
+}
+
+.projects figcaption {
+  font-size: 1em;
+}
+
+hr { margin: .2rem 0; }
