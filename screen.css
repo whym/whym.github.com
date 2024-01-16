@@ -1,4 +1,4 @@
-@layer framework, base, contact, footer;
+@layer framework, base, contact, footer, dark;
 
 @layer base {
   header h1 { font-size: 1.7rem; }
@@ -68,7 +68,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: var(--bs-light);
     line-height: 2.2em;
   }
 
@@ -85,5 +85,19 @@
       margin-top: .5rem;
       margin-bottom: 1.0rem;
     }
+  }
+}
+
+@layer dark {
+  [data-bs-theme=dark] footer {
+    background-color: var(--bs-gray-dark);
+  }
+
+  [data-bs-theme=dark] .container svg .main-path {
+    fill: var(--bs-body-color);
+  }
+
+  [data-bs-theme=dark] .container svg .muted-path {
+    fill: var(--bs-gray-500);
   }
 }

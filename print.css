@@ -1,10 +1,18 @@
 .contact a::after {
   content: " (" attr(href) ") ";
 }
+
 .container {
   width: auto;
   max-width: 100%;
 }
+
+header h1 { font-size: 1.7rem; }
+
+.text-muted a:not(:hover) {
+	color: inherit;
+}
+
 .projects figure p {
   margin-bottom: 0.3rem;
 }
@@ -14,3 +22,7 @@
 }
 
 hr { margin: .2rem 0; }
+
+.container svg .muted-path {
+  fill: var(--bs-gray);
+}
